@@ -1,0 +1,26 @@
+.btn{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 600%;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.btn:nth-child(4),
+.btn:nth-child(5),
+.btn:nth-child(6){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.btn:nth-child(2),
+.btn:nth-child(5),
+.btn:nth-child(8){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

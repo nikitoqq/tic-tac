@@ -1,0 +1,7 @@
+.PlaySquare{
+    display: flex;
+    flex-wrap: wrap;
+    width: 302px;
+    height: 302px;
+    border: 1px solid black;
+}

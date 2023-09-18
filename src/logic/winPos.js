@@ -1,4 +1,11 @@
+// тут папка logic лучше будет называться utils
+
+// с маленькой буквы
 function CheckWin(matrix, Text, countProps) {
+    // здесь слишком много ифов ))
+    // лучше пересмотреть эти условия и куда-то вынести
+    // а потом промапить по объекту или массиву выигрышных комбинаций
+    
     if (matrix.i1 === Text && matrix.i2 === Text && matrix.i3 === Text) {
         win();
     } else if (matrix.i4 === Text && matrix.i5 === Text && matrix.i6 === Text) {
